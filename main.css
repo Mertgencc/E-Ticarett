@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e0d31;
+}
+
+header {
+  position: fixed;
+  background-color: whitesmoke;
+  margin-left: 22.5rem;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  z-index: 1000;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  color: #0e0d31;
+  justify-content: space-between;
+}
+
+header nav .head-content h1 {
+  padding: 1rem;
+}
+
+header nav .menu-list {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  padding-left: 20rem;
+}
+
+header nav a i {
+  display: flex;
+  width: 100%;
+  margin-left: 2rem;
+  color: #0e0d31;
+}
+
+header nav .menu-list i:hover {
+  color: red;
+}
+
+.container .banner .banner-img img {
+  width: 10%;
+  height: 14rem;
+  margin-top: 12rem;
+}
+
+.container .banner .banner-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.blur-circle {
+  position: absolute;
+  top: 65%;
+  left: 49.5%;
+  width: 300px; /* Blur efektinin genişliği */
+  height: 300px; /* Blur efektinin yüksekliği */
+  background-color: #616d9c; /* Yarı saydam arka plan rengi */
+  border-radius: 50%; /* Yuvarlak şekil */
+  transform: translate(-50%, -50%); /* Tam merkeze yerleştirme */
+  filter: blur(35px); /* Blur efekti */
+  z-index: 0; /* Arka planda kalması için */
+}
+
+.container .banner .banner-img a .img2 {
+  transform: rotate(0deg);
+  margin-left: -5rem;
+  height: 16rem;
+  padding-bottom: 2rem;
+  user-select: none;
+}
+
+.container .banner .banner-img a .img1 {
+  transform: rotate(-30deg);
+  margin-left: 2rem;
+  user-select: none;
+}
+
+.container .banner .banner-img a .img3 {
+  transform: rotate(20deg);
+  margin-left: -2rem;
+  user-select: none;
+}
+
+.blur-circle2 {
+  position: absolute;
+  top: 50%;
+  left: 8.5%;
+  width: 300px; /* Blur efektinin genişliği */
+  height: 300px; /* Blur efektinin yüksekliği */
+  background-color: #616d9c; /* Yarı saydam arka plan rengi */
+  border-radius: 50%; /* Yuvarlak şekil */
+  transform: translate(-25%, -25%); /* Tam merkeze yerleştirme */
+  filter: blur(35px); /* Blur efekti */
+  z-index: 0; /* Arka planda kalması için */
+}
+.container .banner .banner-img a .img5 {
+  transform: rotate(0deg);
+  margin-left: -3rem;
+  height: 16rem;
+  padding-bottom: 2rem;
+  user-select: none;
+}
+
+.container .banner .banner-img a .img4 {
+  transform: rotate(-30deg);
+  margin-left: 10rem;
+  user-select: none;
+}
+
+.container .banner .banner-img a .img6 {
+  transform: rotate(20deg);
+  margin-left: -2rem;
+  user-select: none;
+}
+.blur-circle3 {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  width: 300px; /* Blur efektinin genişliği */
+  height: 300px; /* Blur efektinin yüksekliği */
+  background-color: #616d9c; /* Yarı saydam arka plan rengi */
+  border-radius: 50%; /* Yuvarlak şekil */
+  transform: translate(-25%, -25%); /* Tam merkeze yerleştirme */
+  filter: blur(35px); /* Blur efekti */
+  z-index: 0; /* Arka planda kalması için */
+}
+.container .banner .banner-img a .img8 {
+  transform: rotate(0deg);
+  margin-left: -3rem;
+  height: 16rem;
+  padding-bottom: 2rem;
+  user-select: none;
+}
+
+.container .banner .banner-img a .img7 {
+  transform: rotate(-30deg);
+  margin-left: 10rem;
+  user-select: none;
+}
+
+.container .banner .banner-img a .img9 {
+  transform: rotate(20deg);
+  margin-left: -2rem;
+  user-select: none;
+}
+
+.container .banner .banner-img-small {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.container .banner .banner-img-small a img {
+  width: 5%;
+  height: 7rem;
+  margin-top: 7rem;
+  margin-left: 5rem;
+}
+
+.container .banner .banner-img-small a .image1 {
+  transform: rotate(0deg);
+  margin-left: 3rem;
+  user-select: none;
+}
+
+.container .banner .banner-img-small a .image2 {
+  transform: rotate(0deg);
+  margin-left: 3rem;
+  user-select: none;
+}
+
+.container .banner .banner-img-small a .image3 {
+  transform: rotate(0deg);
+  margin-left: 3rem;
+  user-select: none;
+}
+
+.container .banner .banner-img-small a .image4 {
+  transform: rotate(0deg);
+  margin-left: 4rem;
+  user-select: none;
+}
+
+.container .banner .banner-img-small a .image5 {
+  transform: rotate(0deg);
+  margin-left: 3rem;
+  user-select: none;
+}
+
+.container .banner .banner-img-small a .image6 {
+  transform: rotate(0deg);
+  margin-left: 3rem;
+  user-select: none;
+}
+
+.container .banner .banner-img-small a .image7 {
+  transform: rotate(0deg);
+  margin-left: 4rem;
+  user-select: none;
+}
+
+.container .banner .banner-img-small a .image8 {
+  transform: rotate(0deg);
+  margin-left: 3rem;
+  user-select: none;
+}
+
+.container .banner .banner-img-small a .image9 {
+  transform: rotate(0deg);
+  margin-left: 3rem;
+  user-select: none;
+}
+
+.container .banner .banner-img-small .buton {
+  background-color: #4d5684;
+  margin-left: 3rem;
+  border: none;
+}
+
+.container .banner .banner-img-small .buton2 {
+  background-color: #4d5684;
+  margin-left: 4rem;
+  border: none;
+}
+
+.container .banner .banner-img-small .buton:hover {
+  background-color: #616d9c;
+}
+
+.container .banner .banner-img-small .buton2:hover {
+  background-color: #616d9c;
+}
+
+.container .banner .banner-img-small button h4 {
+  color: whitesmoke;
+}
+
+.selling .box-container {
+  display: flex;
+}
+
+.selling .box-container .box .box-head img {
+  width: 35%;
+  height: 10rem;
+  margin-left: 8.5rem;
+  margin-top: 12rem;
+}
+
+.selling .box-container .box .box-head span {
+  color: whitesmoke;
+  margin-top: 12rem;
+  margin-left: 1rem;
+}
+
+.selling .box-container .box .box-head a i {
+  color: whitesmoke;
+  margin-top: 12rem;
+  margin-left: 1rem;
+}
+
+.selling .box-container .box .box-head a i:hover {
+  background-color: #616d9c;
+  border-radius: 2rem;
+}
+
+.selling .box-container .box .box-head {
+  display: flex;
+}
+
+.selling .box-container .box .box-head img {
+  width: 35%;
+  height: 10rem;
+  margin-left: 8.5rem;
+  margin-top: 12rem;
+}
+
+.selling .box-container .box .box-head span {
+  color: whitesmoke;
+  margin-top: 12rem;
+  margin-left: 1rem;
+}
+
+.selling .box-container .box .box-head a i {
+  color: whitesmoke;
+  margin-top: 12rem;
+  margin-left: 1rem;
+}
+
+.selling .box-container .box .box-head a i:hover {
+  background-color: #616d9c;
+  border-radius: 2rem;
+}
+
+.selling .box-container .box .box-head {
+  display: flex;
+}
+
+.selling .box-container .box .box-head img {
+  width: 35%;
+  height: 10rem;
+  margin-left: 12rem;
+  margin-top: 8rem;
+}
+
+.selling .box-container .box .box-head span {
+  color: whitesmoke;
+  margin-top: 8rem;
+  margin-left: 1rem;
+}
+
+.selling .box-container .box .box-head a i {
+  color: whitesmoke;
+  margin-top: 8rem;
+  margin-left: 1rem;
+}
+
+.selling .box-container .box .box-head a i:hover {
+  background-color: #616d9c;
+  border-radius: 2rem;
+}
+
+.selling .box-container .box .box-head {
+  display: flex;
+}
+
+/* İlk açıklama kısmı */
+
+.blur-circle4 {
+  clip: none;
+  position: absolute;
+  margin-top: 65rem;
+  top: 50%;
+  width: 100%; /* Blur efektinin genişliği */
+  height: 2rem; /* Blur efektinin yüksekliği */
+  background-color: #616d9c; /* Yarı saydam arka plan rengi */
+  filter: blur(30px); /* Blur efekti */
+  z-index: 0; /* Arka planda kalması için */
+}
+
+.description .description-text h3 {
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 10rem;
+  z-index: 1000;
+}
+
+.descriptions .description-image img{
+  width: 55%;
+  height: 10rem;
+  margin-left: 6rem;
+  margin-top: 7rem;
+}
+
+.descriptions .description-title h3{
+  margin-top: 7rem;
+  margin-left: 1rem;
+  color: whitesmoke;
+}
+
+.descriptions .description-icon a i{
+  color: whitesmoke;
+  margin-top: 9rem;
+  margin-left: -5.8rem;
+}
+
+.descriptions .description-icons a i{
+  color: whitesmoke;
+  margin-top: 13rem;
+  margin-left: -5.8rem;
+}
+
+.descriptions .description-icons a i:hover{
+  color: green;
+}
+
+.descriptions .description-icon a i:hover{
+  color: green;
+}
+
+.descriptions .description-content p{
+  color: whitesmoke;
+  margin-top: 9rem;
+  margin-left: -4rem;
+}
+/* İkinci açıklama kısmı */
+.descriptions .description-image2 img{
+  width: 35%;
+  height: 10rem;
+  margin-left: 12rem;
+  margin-top: 7rem;
+}
+
+.descriptions .description-title2 h3{
+  margin-top: 7rem;
+  margin-left: 1rem;
+  color: whitesmoke;
+}
+
+.descriptions .description-icon2 a i{
+  color: whitesmoke;
+  margin-top: 9rem;
+  margin-left: -8rem;
+}
+
+.descriptions .description-icons2 a i{
+  color: whitesmoke;
+  margin-top: 13rem;
+  margin-left: -8rem;
+}
+
+.descriptions .description-icons2 a i:hover{
+  color: green;
+}
+
+.descriptions .description-icon2 a i:hover{
+  color: green;
+}
+
+.descriptions .description-content2 p{
+  color: whitesmoke;
+  margin-top: 9rem;
+  margin-left: -6rem;
+}
+
+.descriptions {
+  display: flex;
+}
+
+.about-head h3{
+  color: whitesmoke;
+  margin-top: 10rem;
+  text-align: center;
+  z-index: 1000;
+}
+
+.blur-circle5 {
+  clip: none;
+  position: absolute;
+  margin-top: 94rem;
+  top: 50%;
+  width: 100%; /* Blur efektinin genişliği */
+  height: 2rem; /* Blur efektinin yüksekliği */
+  background-color: #616d9c; /* Yarı saydam arka plan rengi */
+  filter: blur(30px); /* Blur efekti */
+  z-index: 0; /* Arka planda kalması için */
+}
+
+.about .about-img img{
+  width: 20%;
+  margin-top: 6rem;
+  margin-left: 6rem;
+}
+
+.about .about-content p{
+  margin-top: 5rem;
+  margin-left: -3rem;
+  color: whitesmoke;
+  line-height: 5rem;
+}
+
+.about span{
+ text-transform: capitalize; 
+ font-size: xx-large;
+}
+
+.about{
+  display: flex;
+}
+
+footer .contact h3{
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.blur-circle6 {
+  clip: none;
+  position: absolute;
+  margin-top: 121rem;
+  top: 50%;
+  width: 100%; /* Blur efektinin genişliği */
+  height: 2rem; /* Blur efektinin yüksekliği */
+  background-color: #616d9c; /* Yarı saydam arka plan rengi */
+  filter: blur(30px); /* Blur efekti */
+  z-index: 0; /* Arka planda kalması için */
+}
+
+.footer .Social-media-account h4{
+  color: whitesmoke;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.footer .Contact h4{
+  color: whitesmoke;
+  margin-left: 60rem;
+  margin-top: 5rem;
+}
+
+.footer{
+  display: flex;
+}
